@@ -1,0 +1,11 @@
+C:\Users\newforce\workspace\242Code\Book1\chapter1-4\chapter1-4\bin\Debug\netcoreapp3.1\chapter1-4.exe
+C:\Users\newforce\workspace\242Code\Book1\chapter1-4\chapter1-4\bin\Debug\netcoreapp3.1\chapter1-4.deps.json
+C:\Users\newforce\workspace\242Code\Book1\chapter1-4\chapter1-4\bin\Debug\netcoreapp3.1\chapter1-4.runtimeconfig.json
+C:\Users\newforce\workspace\242Code\Book1\chapter1-4\chapter1-4\bin\Debug\netcoreapp3.1\chapter1-4.runtimeconfig.dev.json
+C:\Users\newforce\workspace\242Code\Book1\chapter1-4\chapter1-4\bin\Debug\netcoreapp3.1\chapter1-4.dll
+C:\Users\newforce\workspace\242Code\Book1\chapter1-4\chapter1-4\bin\Debug\netcoreapp3.1\chapter1-4.pdb
+C:\Users\newforce\workspace\242Code\Book1\chapter1-4\chapter1-4\obj\Debug\netcoreapp3.1\chapter1-4.csprojAssemblyReference.cache
+C:\Users\newforce\workspace\242Code\Book1\chapter1-4\chapter1-4\obj\Debug\netcoreapp3.1\chapter1-4.AssemblyInfoInputs.cache
+C:\Users\newforce\workspace\242Code\Book1\chapter1-4\chapter1-4\obj\Debug\netcoreapp3.1\chapter1-4.AssemblyInfo.cs
+C:\Users\newforce\workspace\242Code\Book1\chapter1-4\chapter1-4\obj\Debug\netcoreapp3.1\chapter1-4.dll
+C:\Users\newforce\workspace\242Code\Book1\chapter1-4\chapter1-4\obj\Debug\netcoreapp3.1\chapter1-4.pdb
