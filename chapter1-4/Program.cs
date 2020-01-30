@@ -147,9 +147,10 @@ namespace chapter1_4
             ///// 3) easiest way to iterate over items in a list, this is the easiest of the 3
             students.ForEach(stu => Console.WriteLine(stu));
 
-            //how to count how many items are in a list, you will get squiggly red line, press lightbulb and chose first option, using linq..
+            //how to count how many items are in a list, you might get squiggly red line-> press lightbulb and chose first option, using linq..
             Console.WriteLine(students.Count);
-
+            //you can add a number and a variable name together, you can divide 1/2 , remainder(modulus ) % , addition + and subtraction - , and many more with custom built-in functions and lib's you can download 
+            Console.WriteLine(students.Count+1);
 
 
 
