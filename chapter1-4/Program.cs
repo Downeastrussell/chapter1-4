@@ -7,6 +7,27 @@ namespace chapter1_4
     {
         static void Main(string[] args)
         {
+
+
+
+
+//            Add() Jupiter and Saturn at the end of the list.
+//Create another List that contains that last two planet of our solar system.
+//Combine the two lists by using AddRange().
+//Use Insert() to add Earth, and Venus in the correct order.
+//Use Add() again to add Pluto to the end of the list.
+//Now that all the planets are in the list, slice the list using GetRange() in order to extract the rocky planets into a new list called rockyPlanets. The rocky planets will remain in the original planets list.
+//Being good amateur astronomers, we know that Pluto is now a dwarf planet, so use the Remove() method to eliminate it from the end of planetList.
+
+
+
+
+
+
+
+
+
+
             ///////////////////////////////////////////////////
             ////////////Types of Variables in C#///////////////
             ///////////////////////////////////////////////////
@@ -20,21 +41,21 @@ namespace chapter1_4
             int gradeOnTest2 = 100;
             //you can add variables together, even string but that is called concatination, and i will show that further down
             //below should print the average of the 2 test grades
-            Console.WriteLine((gradeOnTest1 + gradeOnTest2) / 2 + " is the average test score");
+            Console.WriteLine((gradeOnTest1 + gradeOnTest2) / 2 + " is " + "the"+" " +"average test score");
 
             //string(words or letters and always uses " " when defining a string variable)
-            string instructorFirstName = "Russell";
-            string instructorLastName = "Miller";
+            string studentFirstName = "Russell";
+            string studentLastName = "Miller";
             //this is how you add two strings together
-            Console.WriteLine(instructorFirstName + instructorFirstName);// if you check the output it is -- RussellMiller with no space
-            Console.WriteLine(instructorFirstName + " " + instructorLastName);//this is why we learned $"{string interpolation}" see below
-            Console.WriteLine($"The instructors name is {instructorFirstName} {instructorLastName}");
+            Console.WriteLine(studentFirstName + studentFirstName);// if you check the output it is -- RussellMiller with no space
+            Console.WriteLine(studentFirstName + " " + studentLastName);//this is why we learned $"{string interpolation}" see below
+            Console.WriteLine($"The instructors name is {studentFirstName} {studentLastName}");
 
             //double is like int but you can have 2 decimal spots like below
             double GPA = 3.55;
 
             //char is just a single letter(character), can be upper or lower case
-            char courseFinalGrade = 'B';
+            char courseFinalGrade = 'A';
 
             Console.WriteLine(courseFinalGrade);
 
@@ -51,13 +72,13 @@ namespace chapter1_4
 
 
             //array of whole numbers
-            int[] allQuizGrades = new int[] { 99, 100, 84, 77, 7, 91, 13, 86 };
+            float[] allQuizGrades = new float[8] { 99, 100, 84, 77, 7, 91, 13, 86 };
 
             //array of numners that have 2 decimal places
-            double[] gpaBySemester = new double[] { 4.0, 3.59, 3.55, 3.84 };
+            double[] gpaBySemester = new double[4] { 4.00000, 3.5923423, 3.55, 3.84 };
 
             //array of strings(words)
-            string[] studentNames = new string[] { "Bobby", "Sarah", "Jessica", "John" };
+            string[] studentNames = new string[4] { "Bobby", "Sarah", "Jessica", "John" };
 
 
 
@@ -67,20 +88,20 @@ namespace chapter1_4
 
 
             //this is a simple if-else statemnt checking to see if the test grade is 90 or above
-            if (gradeOnTest1 >= 90)
+            if (gradeOnTest1 == 90)
             {
                 Console.WriteLine($"you scored {gradeOnTest1} on the test which is an A");
 
             }
-            else { Console.WriteLine("you didn't score an A"); }
+            else { Console.WriteLine("you didn't score an 90 exactly"); }
 
 
 
             //Another if statement but with the == to see if the two variables are the same
 
-            if (instructorFirstName == "Russell")
+            if (studentFirstName == "Russ")
             {
-                Console.WriteLine($"you have the best instructor and his name is {instructorFirstName} and he is super humble");
+                Console.WriteLine($"you have the best instructor and his name is {studentFirstName} and he is super humble");
             }
 
 
@@ -99,7 +120,7 @@ namespace chapter1_4
             // -tells the computer to print the index its currently on --> Console.WriteLine(k)
             // -tell it how long the list is, here its 999 spots (k<=999), how many times to loop over the array
             // -says to count every single spot (k++) means k=k+1,
-            for (int k = 0; k <= 15; k++)
+            for (int k = 0; k <= 999; k++)
             {
                 Console.WriteLine(k);
             }
@@ -139,13 +160,13 @@ namespace chapter1_4
             Console.WriteLine(students[10]);
 
             ////// 2) easier way to iterate through an array is with a foreach, which is like for-loop but much easier and it detects the length of the list or array automatically, there are many built in function within C# .NET Core that are very useful.
-            foreach (string name in students)
+            foreach (string taco in students)
             {
-                Console.WriteLine(name);
+                Console.WriteLine(taco);
             }
 
             ///// 3) easiest way to iterate over items in a list, this is the easiest of the 3
-            students.ForEach(stu => Console.WriteLine(stu));
+            students.ForEach(x => Console.WriteLine(x));
 
             //how to count how many items are in a list, you might get squiggly red line-> press lightbulb and chose first option, using linq..
             Console.WriteLine(students.Count);
